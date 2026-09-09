@@ -1,0 +1,32 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+//create a class time to display a time value with the data members of hours ,mintues and seconds . Include the member functions to get and display the time seperated by.HH:MM:SS Assume the time is representaed in 12 hours. if the input value exceeds the hour minute and second them your  function should report the exception as invalid hour/min/sec , write c# program to model the above relationsships 
+using System;
+
+// sum of each row of a jagged array 
+
+class Program
+{
+    static void Main()
+    {
+        int[][] arr =
+{
+    new int[] { 1, 2, 3 },
+    new int[] { 4, 5 },
+    new int[] { 6, 7, 8, 9 }
+};
+
+for (int i = 0; i < arr.Length; i++)
+{
+    int sum = 0;
+
+    for (int j = 0; j < arr[i].Length; j++)
+    {
+        sum += arr[i][j];
+    }
+
+    Console.WriteLine($"Sum of row {i + 1}: {sum}");
+}
+
+    }
+}
